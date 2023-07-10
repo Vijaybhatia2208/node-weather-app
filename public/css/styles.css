@@ -19,7 +19,7 @@ footer {
     color: #888888;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
-    padding: 16px 0;
+    padding: 16px;
 }
 
 header {
@@ -38,8 +38,9 @@ header a {
     text-decoration: none;
 }
 
-.landscape {
-    width: 250px;
+.portrait {
+    width: 150px;
+    padding: 5px;
 }
 
 input {
@@ -53,4 +54,8 @@ button {
     background: #888888;
     color: white;
     padding: 8px;
+}
+
+p.message {
+    color: blueviolet
 }
